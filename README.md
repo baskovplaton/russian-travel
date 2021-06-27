@@ -21,4 +21,4 @@
 
 **Хостинг**
 
-Сайт выложен на хостинг: https://baskovplaton.github.io/russian-travel/
+* [Сайт выложен на хостинг](https://baskovplaton.github.io/russian-travel/)
