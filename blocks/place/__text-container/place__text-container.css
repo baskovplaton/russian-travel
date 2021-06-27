@@ -1,9 +1,9 @@
-.place__text-container{
-    max-width:100%;
+.place__text-container {
+    max-width: 100%;
 }
 @media screen and (max-width: 320px) {
-   .place__text-container { 
-       max-width: 90%;
-       padding-left:16px;
-   }
+    .place__text-container {
+        max-width: 90%;
+        padding-left: 16px;
+    }
 }

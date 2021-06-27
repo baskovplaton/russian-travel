@@ -6,13 +6,13 @@
     padding-top: 56px;
 }
 @media screen and (max-width: 1024px) {
-.lead {
-    width: 90.7%;
-    padding-top: 48px;
+    .lead {
+        width: 90.7%;
+        padding-top: 48px;
+    }
 }
-}
-@media screen and (max-width: 768px){
-.lead {
-    width: 100%;
-}
+@media screen and (max-width: 768px) {
+    .lead {
+        width: 100%;
+    }
 }

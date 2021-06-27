@@ -1,15 +1,14 @@
 .place__url-title {
-    margin: 0;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 1.7;
-    letter-spacing: 0.2em;
-    color: #aaa;
-    text-transform: uppercase;
+  margin: 0;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.7;
+  letter-spacing: 0.2em;
+  color: #aaa;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  .place__url-title {
+      line-height: 1;
   }
-@media screen and (max-width:768px) {
-  .place__url-title{
-    line-height: 1;
-  }
-  
 }

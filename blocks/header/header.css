@@ -2,13 +2,18 @@
     box-sizing: border-box;
     width: 90%;
     padding-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 52px;
+    min-height: 42px;
 }
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
     .header {
         width: 93.5%;
     }
 }
-@media screen and (max-width: 460px) { 
+@media screen and (max-width: 460px) {
     .header {
         width: 89.9%;
         padding-top: 16px;

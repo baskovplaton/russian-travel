@@ -3,32 +3,31 @@
   font-size: 18px;
   line-height: 1.22;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 32px 0 0 0;
   max-width: 30.41%;
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .cover__text {
-    max-width: 35.15%;
+      max-width: 35.15%;
   }
 }
 @media screen and (max-width: 768px) {
   .cover__text {
-    max-width: 46.8%;
+      max-width: 46.8%;
   }
   @media screen and (max-width: 650px) {
-    .cover__text {
-      font-size: 16px;
-      line-height: 1.1;
-    }
-    }
+      .cover__text {
+          font-size: 16px;
+          line-height: 1.1;
+      }
+  }
 }
 @media screen and (max-width: 460px) {
   .cover__text {
-      max-width:80%;
+      max-width: 80%;
       margin: 15px 0 0 0;
       font-size: 14px;
       line-height: 1.14;
-    /* or 114% */
   }
-  }
+}

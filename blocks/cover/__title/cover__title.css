@@ -1,35 +1,30 @@
-.cover__title{
-  max-width: 53%; /*высчитал вручную*/
-  font-weight: bold;
-  font-size: 72px;
-  line-height: 1.06;
-  text-align: center;
-  color: #fff;
-  margin:0;
-  text-rendering: optimizeLegibility;
-  }
- 
-  @media screen and (max-width: 768px) {
+.cover__title {
+    max-width: 53%; /*высчитал вручную*/
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 1.06;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+}
+@media screen and (max-width: 768px) {
     .cover__title {
         max-width: 72%;
-        
     }
+}
+@media screen and (max-width: 650px) {
+    .cover__title {
+        max-width: 90%;
+        font-size: 52px;
+        line-height: 1.1;
     }
-
-    @media screen and (max-width: 650px) {
-        .cover__title {
-            max-width: 90%;
-            font-size: 52px;
-            line-height: 1.1;
-            
-        }
-        }
+}
 
 @media screen and (max-width: 460px) {
     .cover__title {
         max-width: 90%;
         font-size: 32px;
         line-height: 1.09;
-        
     }
-    }
+}

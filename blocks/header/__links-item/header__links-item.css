@@ -1,7 +1,6 @@
-.header__links-item{
+.header__links-item {
     margin-right: 18px;
 }
-.header__links-item:last-child{
-    margin-right:0;
+.header__links-item:last-child {
+    margin-right: 0;
 }
-
