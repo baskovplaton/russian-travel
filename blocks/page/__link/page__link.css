@@ -1,0 +1,9 @@
+.page__link {
+    opacity: 1;
+    text-decoration: none;
+    transition: opacity 0.4s ease-in-out;
+}
+.page__link:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
